@@ -1,0 +1,28 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+
+[packages]
+django = "*"
+djangorestframework = "*"
+httpie = "*"
+pygments = "*"
+gunicorn = "*"
+dj-database-url = "*"
+psycopg2-binary = "*"
+whitenoise = "*"
+django-rosetta = "*"
+parler = "*"
+django-parler = "=="
+1-9-2 = "*"
+localflavour = "*"
+django-localflavour = "==2.1"
+django-localflavor = "*"
+django-celery-results = "*"
+pillow = "*"
+
+[requires]
+python_version = "3.7"
